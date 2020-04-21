@@ -4,9 +4,22 @@ body{
     font-family: Arial, "Areal Black", Verdana;
     margin-left: 50px;
 }
+p:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
 p > span.emphesize {
     font-weight: bold;
     color: white;
+}
+li a {
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
 }
 img.mood {
     width: 200px;
