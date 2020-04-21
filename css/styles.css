@@ -1,0 +1,16 @@
+body{
+    background-color: hsl(10, 50%, 50%);
+    color: hsl(190, 60%, 50%);
+    font-family: Arial, "Areal Black", Verdana;
+}
+p > span.emphesize {
+    font-weight: bold;
+    color: white;
+}
+img.mood {
+    width: 200px;
+    height: 200px;
+}
+h2 {
+    text-decoration: underline;
+}
