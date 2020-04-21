@@ -2,6 +2,7 @@ body{
     background-color: hsl(10, 50%, 50%);
     color: hsl(190, 60%, 50%);
     font-family: Arial, "Areal Black", Verdana;
+    margin-left: 50px;
 }
 p > span.emphesize {
     font-weight: bold;
