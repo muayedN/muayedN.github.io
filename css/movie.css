@@ -82,6 +82,7 @@
         width: 250px;
         float: right;
         background-color: #A2B964;
+        z-index: 1;
     }
     
     #right dl {
@@ -110,6 +111,7 @@
         width: 100%;
         left: 0px;
         bottom: -10px;
+        z-index: -1;
     }
 
     footer {
