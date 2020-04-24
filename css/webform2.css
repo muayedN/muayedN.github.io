@@ -1,0 +1,13 @@
+.navbar-nav li {
+    border-left: solid 1px white;
+    padding: 0px 20px;
+}
+.navbar{
+    background-color: #53A6E7;
+}
+main {
+    padding: 20px;
+}
+h3{
+    color: #898989;
+}

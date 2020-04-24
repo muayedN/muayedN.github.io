@@ -1,0 +1,68 @@
+#outer {
+    border: 2px dashed black;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    float: left;
+  }
+ .break {
+   clear:left;
+ }
+
+ #q2 {
+   background-color: red;
+   padding: 20px;
+   text-align: center;
+ }
+
+ #q2>li {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16pt;
+ }
+
+ #q3 {
+   background-color: lightgray;
+   width: 500px;
+   padding: 10px;
+   overflow: hidden;
+ }
+ 
+ #area1, #area2{
+   float: right;
+   margin-left: 10px;
+   background-color: lightblue;
+   width: 100px;
+ }
+ #q3>h1{
+   background-color: yellow;
+ }
+
+ #a, #b {
+  width: 100px;
+  height: 100px;
+  font: 30pt bold Helvetica, Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+}
+#a { 
+  float: left;
+  background-color: lightblue; 
+}
+#b { 
+  background-color: pink; 
+  float: right;
+  clear: left;
+}
+#c { 
+  background-color: lightgray; 
+  clear: left;
+}
