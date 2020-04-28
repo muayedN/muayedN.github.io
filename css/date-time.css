@@ -1,0 +1,11 @@
+div {
+    margin: 200px auto;
+    border: 5px solid gray;
+    width: 50%;
+    display: flex;
+}
+span {
+    margin: auto;
+    font-size: 4em;
+    color: green;
+}

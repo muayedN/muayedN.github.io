@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/webform1.css">
     <title>Web Form 1</title>
+    <script src="./js/form1.js" defer></script>
 </head>
 
 <body>
@@ -18,23 +19,23 @@
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" name="email" class="form-control form-control-lg" id="exampleInputPassword1" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{10,}" title="10 character long password">
+                <input type="password" name="email" class="form-control form-control-lg" id="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{10,}" title="10 character long password">
             </div>
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" name="password" for="exampleCheck1">Check me out</label>
+                <input type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label"  name="check" for="check">Check me out</label>
             </div>
             <div class="form-group">
                 <label for="exampleUrl">Url</label>
-                <input type="text" id="exampleUrl" class="form-control form-control-lg" name="url" title="put valid url"
+                <input type="text" id="url" class="form-control form-control-lg" name="url" title="put valid url"
                  pattern="https{0,1}://.*" />
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
         </form>
 
     </div>
