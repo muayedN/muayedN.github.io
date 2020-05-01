@@ -1,12 +1,11 @@
-function onSubmit(){
-    let email = document.getElementById('email').value;
-    let password = document.getElementById('password').value;
-    let url = document.getElementById('url').value;
-    let check = document.getElementById('check').checked;
-    console.log( 'email = ' + email );
-    console.log( 'password = ' + password );
-    console.log( 'Check me out? = ' + check );
-    console.log( 'url = ' + url );
-}
+$(function() {
+    $('form').on('submit', onSubmit);
 
-document.getElementById('submit').onclick = onSubmit;
+    function onSubmit(event) {
+        event.preventDefault();
+        console.log(`Email ${$('#email').val()} \n` +
+                    `Password ${$('#password').val()} \n` +
+                    `Url ${$('#url').val()} \n` +
+                    `Check me out? ${$('#check').is(':checked')}`);
+    }
+});
